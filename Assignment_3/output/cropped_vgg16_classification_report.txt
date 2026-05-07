@@ -1,0 +1,26 @@
+                 precision    recall  f1-score   support
+
+      Brick_1x1       0.92      0.96      0.94        48
+      Brick_1x2       0.77      0.81      0.79        37
+      Brick_1x3       0.84      0.76      0.80        42
+      Brick_1x4       0.84      0.91      0.88        54
+      Brick_2x2       0.88      0.82      0.85        44
+    Brick_2x2_L       0.90      0.92      0.91        60
+Brick_2x2_Slope       0.91      0.89      0.90        35
+      Brick_2x3       0.82      0.76      0.79        42
+      Brick_2x4       0.86      0.83      0.85        53
+      Plate_1x1       0.89      0.87      0.88        47
+Plate_1x1_Round       0.97      0.95      0.96        40
+Plate_1x1_Slope       0.94      0.99      0.96        80
+      Plate_1x2       0.84      0.79      0.81        47
+Plate_1x2_Grill       0.98      1.00      0.99        51
+      Plate_1x3       0.91      0.83      0.87        47
+      Plate_1x4       0.78      0.94      0.85        34
+      Plate_2x2       0.97      0.90      0.94        41
+    Plate_2x2_L       0.93      0.96      0.94        53
+      Plate_2x3       0.92      0.92      0.92        26
+      Plate_2x4       0.95      1.00      0.97        35
+
+       accuracy                           0.89       916
+      macro avg       0.89      0.89      0.89       916
+   weighted avg       0.89      0.89      0.89       916
