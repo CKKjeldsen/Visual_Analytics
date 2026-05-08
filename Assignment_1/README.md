@@ -24,13 +24,15 @@ Assignment_1/
 
 ## Data
 
-The data used in this project is available from: https://www.robots.ox.ac.uk/~vgg/data/flowers/17/
+The data used in this project is available from:
 
-The dataset contains 1360 image files, with 80 images of 17 different flowers. The images should be downloaded and placed directly in the data/ folder in the main project repository. The data/ folder should be at the same level as the src/ and output/ folders. 
+https://www.robots.ox.ac.uk/~vgg/data/flowers/17/
+
+The dataset contains 1360 image files, with 80 images of 17 different flowers. The images come in a jpg/ folder when downloaded, but should be placed directly in the data/ folder (without the jpg/ folder) in the main project repository. The data/ folder should be at the same level as the src/ and output/ folders. 
 
 ## Requirements 
 
-The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh
@@ -64,14 +66,16 @@ Both scripts can be run from the command line in a bash terminal. Both scripts t
 
 ```bash
 python flower_histograms.py #runs the script on image_0107.jpg
-python flower_histograms.py --input image_0500  #runs the script on image_0500.jpg
+python flower_histograms.py --input image_0500  #runs the 
+#script on image_0500.jpg
 ```
 
 ### flower_cosine.py examples
 
 ```bash
 python flower_cosine.py #runs the script on image_0107.jpg
-python flower_cosine.py --input image_0500 #runs the script on image_0500.jpg
+python flower_cosine.py --input image_0500 #runs the 
+#script on image_0500.jpg
 ```
 
 ## Output

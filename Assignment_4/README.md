@@ -40,7 +40,7 @@ The dataset contains 4624 image files of scanned newspaper pages in three folder
 
 ## Requirements
 
-The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh

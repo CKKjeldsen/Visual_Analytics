@@ -35,7 +35,7 @@ And the repository does therefore not contain a data/ folder.
 
 ## Requirements
 
-The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh

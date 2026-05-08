@@ -45,7 +45,7 @@ which is licensed under CC BY-SA 3.0. The dataset contains 9160 image files in t
 
 ## Requirements
 
-The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh
