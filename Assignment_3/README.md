@@ -39,7 +39,9 @@ Assignment_3/
 
 ## Data
 
-The data used in this project is available from: https://www.kaggle.com/datasets/pacogarciam3/lego-brick-sorting-image-recognition
+The data used in this project is available from: 
+
+https://www.kaggle.com/datasets/pacogarciam3/lego-brick-sorting-image-recognition
 
 which is licensed under CC BY-SA 3.0. The dataset contains 9160 image files in three folder layers. Each image is in a folder named after the type of brick, e.g. Plate_1x1_Slope/, and each of these folders are placed in one of two dataset folders, called base/ and cropped/. The base/ and cropped/ folders are both in a folder called lego/. The lego/ folder should be put in a data/ folder in the main project repository, at the same level as src/ and output/. 
 
@@ -77,23 +79,36 @@ With the data argument, the user can choose to run the script on the "base" or "
 ### CNN_direct.py examples
 
 ```bash
-python CNN_direct.py --data base #runs the script on the base dataset with 10 epochs
-python CNN_direct.py --data cropped --epochs 20 #runs the script on the cropped dataset with 20 epochs
+python CNN_direct.py --data base #runs the script 
+#on the base dataset with 10 epochs
+
+python CNN_direct.py --data cropped --epochs 20 #runs 
+#the script on the cropped dataset with 20 epochs
 ```
 
 ### CNN_VGG16.py examples
 
 ```bash
-python CNN_VGG16.py --data base #runs the script on the base dataset with 10 epochs
-python CNN_VGG16.py --data cropped --epochs 20 #runs the script on the cropped dataset with 20 epochs
+python CNN_VGG16.py --data base #runs the script 
+#on the base dataset with 10 epochs
+
+python CNN_VGG16.py --data cropped --epochs 20 #runs 
+#the script on the cropped dataset with 20 epochs
 ```
 
 ## Output
 
 Each run saves two files to the output/ folder, a classification report and a plot of training and validation accuracy and loss. 
 
-Running the CNN_direct.py script saves a report and plot with the names: "[dataset]_direct_classification_report.txt" and "[dataset]_direct_learning_curves.png". 
-Running the CNN_VGG16.py script saves a report and plot with the names: "[dataset]_VGG16_classification_report.txt" and "[dataset]_VGG16_learning_curves.png". 
+Running the CNN_direct.py script saves a report and plot with the names: 
+
+"[dataset]_direct_classification_report.txt" and
+"[dataset]_direct_learning_curves.png". 
+
+Running the CNN_VGG16.py script saves a report and plot with the names: 
+
+"[dataset]_VGG16_classification_report.txt" and
+"[dataset]_VGG16_learning_curves.png". 
 
 Running both scripts on both datasets will produce 8 output files in total, without any overwriting.
 

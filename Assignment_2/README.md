@@ -22,7 +22,9 @@ Assignment_2/
 
 ## Data
 
-The data used in this project is available from: https://www.cs.toronto.edu/~kriz/cifar.html
+The data used in this project is available from: 
+
+https://www.cs.toronto.edu/~kriz/cifar.html
 
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. The dataset is presented in detail in the technical report: *Learning Multiple Layers of Features from Tiny Images*, Alex Krizhevsky, 2009.
 Since the dataset is contained in the tensorflow package, it is loaded with:
@@ -74,8 +76,11 @@ python class_log.py #runs the script
 ### class_nn.py examples
 
 ```bash
-python class_nn.py #runs the script with 10 epochs and 10 nodes in the hidden layer
-python class_nn.py --epochs 100 -hl 256 #runs the script with 100 epochs and 256 nodes in the hidden layer
+python class_nn.py #runs the script 
+#with 10 epochs and 10 nodes in the hidden layer
+
+python class_nn.py --epochs 100 -hl 256 #runs the 
+#script with 100 epochs and 256 nodes in the hidden layer
 ```
 
 ## Output
