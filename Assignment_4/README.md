@@ -40,7 +40,7 @@ The dataset contains 4624 image files of scanned newspaper pages in three folder
 
 ## Requirements
 
-This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 3.12.3. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh
@@ -72,7 +72,7 @@ source ./env/bin/activate
 
 ## Usage
 
-This script can be run from the command line in a bash terminal. The script does not take any arguments. 
+This script can be run from the command line in a bash terminal. First change directory to the src/ folder. The script does not take any arguments. 
 
 ### main.py example
 

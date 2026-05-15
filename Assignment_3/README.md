@@ -47,7 +47,7 @@ which is licensed under CC BY-SA 3.0. The dataset contains 9160 image files in t
 
 ## Requirements
 
-This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 3.12.3. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh
@@ -73,8 +73,7 @@ tensorflow==2.21.0
 
 ## Usage
 
-Both scripts can be run from the command line in a bash terminal. Both scripts take two arguments from the command line, data and epochs. 
-With the data argument, the user can choose to run the script on the "base" or "cropped" LEGO dataset (base is default). With the epochs argument, the user can choose the number of training iterations (default 10). 
+Both scripts can be run from the command line in a bash terminal. First change directory to the src/ folder. Both scripts take two arguments from the command line, data and epochs. With the data argument, the user can choose to run the script on the "base" or "cropped" LEGO dataset (base is default). With the epochs argument, the user can choose the number of training iterations (default 10). 
 
 ### CNN_direct.py examples
 

@@ -32,7 +32,7 @@ The dataset contains 1360 image files, with 80 images of 17 different flowers. T
 
 ## Requirements 
 
-This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 3.12.3. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh
@@ -60,7 +60,7 @@ cv2==4.13.0
 
 ## Usage
 
-Both scripts can be run from the command line in a bash terminal. Both scripts take one argument from the command line, the target flower image that one wants to find similar images to. The default image in both scripts if no target image is passed as input is image_0107.jpg. 
+Both scripts can be run from the command line in a bash terminal. First change directory to the src/ folder. Both scripts take one argument from the command line, the target flower image that one wants to find similar images to. The default image in both scripts if no target image is passed as input is image_0107.jpg. 
 
 ### flower_histograms.py examples
 

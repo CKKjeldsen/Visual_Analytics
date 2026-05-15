@@ -37,7 +37,7 @@ And the repository does therefore not contain a data/ folder.
 
 ## Requirements
 
-This project is coded in Python version 1.109.2. The included setup.sh script creates a virtual environment and installs all dependencies:
+This project is coded in Python version 3.12.3. The included setup.sh script creates a virtual environment and installs all dependencies:
 
 ```bash
 bash setup.sh
@@ -65,7 +65,7 @@ cv2==4.13.0
 
 ## Usage
 
-Both scripts can be run from the command line in a bash terminal. The class_log.py script does not take any arguments, while the class_nn.py takes two arguments form the command line, number of training epochs (default 10) and number of nodes in the single hidden layer (default 10).
+Both scripts can be run from the command line in a bash terminal. First change directory to the src/ folder. The class_log.py script does not take any arguments, while the class_nn.py takes two arguments form the command line, number of training epochs (default 10) and number of nodes in the single hidden layer (default 10).
 
 ### class_log.py example
 
