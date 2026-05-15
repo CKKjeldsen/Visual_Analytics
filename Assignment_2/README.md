@@ -93,8 +93,8 @@ Running both scripts once will produce a total of 3 output files.
 
 The class_log.py script had a 31% accuracy and a f1-score of 0.31, showing relatively poor overall performance. This model performed best on images of machines, having a f1-score of 0.41 on trucks and 0.38 on ships, while it performed most poorly on images of animals, with a f1-score of 0.17 on cats and 0.23 on deer. 
 
-The class_nn.py script run wiht 100 epochs and 256 nodes in the hidden layer performed better with an overall accuracy of 42% and a f1-score of 0.42. 
-This model also saw best performance on machines (ship f1-score: 0.53; truck f1-score:0.50) and the poorest performance on animals (cat f1-score: 0.25; deer f1-score: 0.34). 
+The class_nn.py script run with 100 epochs and 256 nodes in the hidden layer performed better with an overall accuracy of 42% and a f1-score of 0.42. 
+This model also saw best performance on machines (ship f1-score: 0.53; truck f1-score: 0.50) and the poorest performance on animals (cat f1-score: 0.25; deer f1-score: 0.34). 
 
 ## Discussion and limitations 
 
@@ -102,4 +102,4 @@ The learning curve plot for the class_nn.py script shows that the model initiall
 
 These results show that a neural network model with a single hidden layer outperforms a logistic classifier by about 11 percentage points. Since there are 10 classes, randomly assigning labels would give an accuracy of 10%, so the logistic classfier performs about 3 times as well as random chance while the neural network model works about 4 times as well.  
 
-The performance of the class_nn.py script could probably be improved substantially be using more hidden layers. It is still limited by the fact that color is removed from the images, meaning that the model has access to less information than is available in the original images. Likewise, the spatial relations between pixels is destroyed by flattening the images. These circumstances speaks in favour of using a convolutional neural network for image classification tasks instead. 
+The performance of the class_nn.py script could probably be improved substantially be using more hidden layers. It is still limited by the fact that color is removed from the images, meaning that the model has access to less information than is available in the original images. Likewise, the spatial relations between pixels is destroyed by flattening the images. These circumstances speak in favour of using a convolutional neural network for image classification tasks instead. 
